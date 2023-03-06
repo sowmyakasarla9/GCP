@@ -3,7 +3,7 @@ import sqlite3
 from flask import Flask, request, g, render_template, send_file
 
 # DATABASE = '/var/www/html/flaskapp/example.db'
-DATABASE ='C:\\Users\\NarsiReddy\\Desktop\\GCP\\example.db'
+DATABASE ='/home/sowmyareddykasarla99/cloudcomputing_assignment-4/GCP/example.db'
 app = Flask(__name__)
 app.config.from_object(__name__)
 
